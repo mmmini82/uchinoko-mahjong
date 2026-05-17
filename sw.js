@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hyoen-mahjong-v40-strong-ai';
+const CACHE_NAME = 'hyoen-mahjong-v42-character-dialogue-only';
 const ASSETS = [
   './',
   './index.html',
