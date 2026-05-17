@@ -7,7 +7,7 @@ const TILE_GLYPHS = [
   '🀇','🀈','🀉','🀊','🀋','🀌','🀍','🀎','🀏',
   '🀙','🀚','🀛','🀜','🀝','🀞','🀟','🀠','🀡',
   '🀐','🀑','🀒','🀓','🀔','🀕','🀖','🀗','🀘',
-  '🀀','🀁','🀂','🀃','🀆','🀅','🀄'
+  '🀀','🀁','🀂','🀃','🀆','🀅','中'
 ];
 const TILE_TEXT = [
   '一萬','二萬','三萬','四萬','五萬','六萬','七萬','八萬','九萬',
@@ -15,6 +15,12 @@ const TILE_TEXT = [
   '一索','二索','三索','四索','五索','六索','七索','八索','九索',
   '東','南','西','北','白','發','中'
 ];
+const TILE_IMAGES = [
+  'man_1.gif','man_2.gif','man_3.gif','man_4.gif','man_5.gif','man_6.gif','man_7.gif','man_8.gif','man_9.gif',
+  'pin_1.gif','pin_2.gif','pin_3.gif','pin_4.gif','pin_5.gif','pin_6.gif','pin_7.gif','pin_8.gif','pin_9.gif',
+  'sou_1.gif','sou_2.gif','sou_3.gif','sou_4.gif','sou_5.gif','sou_6.gif','sou_7.gif','sou_8.gif','sou_9.gif',
+  'wind_ton.gif','wind_nan.gif','wind_sha.gif','wind_pei.gif','dragon_haku.gif','dragon_hatsu.gif','dragon_chun.gif'
+].map(name => `assets/tiles/${name}`);
 const WINDS = ['東','南','西','北'];
 const SUIT = (t) => Math.floor(t / 9);
 const NUM = (t) => (t % 9) + 1;
@@ -773,6 +779,193 @@ for (const [id, data] of Object.entries(EXTRA_EVENT_VARIATIONS)) {
     EVENT_VARIATIONS[id][event] = [...new Set([...(EVENT_VARIATIONS[id][event] || []), ...lines])];
   }
 }
+
+const FINAL_EVENT_VARIATIONS = {
+  default: {
+    final: [
+      '全局終了。最後まで付き合ってくれてありがとう。',
+      '対局完了。今日の流れは、ちゃんと記録しておこう。',
+      '最終結果が出たね。もう一戦するなら、次は違う風が吹くかも。',
+      '長い勝負だった。最後まで見届けた君も、お疲れさま。',
+      '総合結果確定。卓の熱は、まだ少し残っている。'
+    ]
+  },
+  minaho: {
+    final: [
+      'ぜんぶ終わったー！ 最終結果までちゃんと出たよ、えらい！',
+      'やったやった、最後まで遊べた！ これはもう今日は勝ちってことでいい？',
+      '最終結果きた！ ねえ見て見て、あたし最後まで頑張った！',
+      'ふぅ……全局終了！ めんどいけど、ちゃんと勝負つくと気持ちいいね。',
+      'これで一区切り！ もう一戦するなら、お菓子と飲み物いるやつ。',
+      '最後までやったあたし偉い。ナビも偉い。みんなも偉い！'
+    ]
+  },
+  akane: {
+    final: [
+      '全局終了。姫、最後まで見てたか？ なら俺の勝ち方も覚えてろよ。',
+      '総合で勝つのが一番気持ちいいだろ。途中で燃え尽きる趣味はねぇからな。',
+      '終わりだ。ま、姫の前で格好悪いところは見せられねぇし？',
+      '長丁場お疲れ。次もやるなら付き合うぞ。手加減は別料金だけどな。',
+      '結果は結果だ。悔しいならもう一戦来いよ、ちゃんと相手してやる。',
+      '勝負は最後に立ってた奴が勝ち。俺はそういうの、嫌いじゃねぇ。'
+    ]
+  },
+  hin: {
+    final: [
+      '全局完。南帆小姐，今日老師嘅牌姿，記住咗未？',
+      '收工喇。呢場勝負，財氣同手氣都幾靚。',
+      '南帆小姐，唔好淨係睇結果。中間嗰啲流向先最有意思。',
+      '贏輸都好，最緊要係你有冇學到嘢。……不過我贏就更開心。',
+      '呢鋪完咗。再嚟嘅話，老師可以再教你一次。',
+      '哈哈，最終結果出咗。南帆小姐，畀啲掌聲嚟聽下？'
+    ]
+  },
+  yuk: {
+    final: [
+      '全局終了。金気の巡りとしては、かなり綺麗な決算だね。',
+      '最終結果まで出たね。溜めるだけじゃなく、どこで巡らせるかが勝負だよ。',
+      '勝負は終わり。数字は正直だ、でも流れはもっと正直だ。',
+      '南帆ちゃん、今の総合結果、牌の流れとお金の流れが似てたでしょ？',
+      '終わりよければ、次の運も呼び込みやすい。もう一局、投資してみる？'
+    ]
+  },
+  yao: {
+    final: [
+      '全局終了だね。最後まで縁が切れなかったの、すごくいい感じ！',
+      '結果出たよ、南帆ちゃん。急がなくても、ちゃんと辿り着けるでしょ？',
+      'ふふ、最後までお疲れさま。いい縁の牌、今日はたくさん見えたね。',
+      '勝っても負けても、次につながるなら悪くないよ。もう一回結び直そ？',
+      '総合結果まで見届けたね。こういう終わり方、私は好きだよ。'
+    ]
+  },
+  haruka: {
+    final: [
+      '全局終了。南帆、最後まで僕を見ていてくれた？',
+      '終わったね。途中の揺れも含めて、僕はこの結果を悪くないと思う。',
+      '総合で決まった。最後まで積み上げる勝負は、僕に向いてるかもしれない。',
+      '南帆が隣にいるなら、長い勝負でも怖くないよ。次も一緒に見ていて。',
+      '結果は出た。……でも、君がもう一戦したいなら、僕は断らない。',
+      '最後まで終わったね。よく頑張った。少し休んだら、また遊ぼう。'
+    ]
+  },
+  masumi: {
+    final: [
+      '終幕。最後の拍手は、俺にくれる？',
+      '全局終了。綺麗な脚本だっただろ。君の視線まで含めて、完璧だ。',
+      '幕は下りたね。南帆、俺の勝ち方、ちゃんと記憶に残った？',
+      '総合結果まで出ると、勝負に余韻が残る。……俺はそういうのが好きだよ。',
+      '終わったよ。でも君が望むなら、次の幕はすぐ上がる。',
+      '勝っても負けても、最後に君が俺を見てるなら、それで演目は完成する。'
+    ]
+  },
+  aoi: {
+    final: [
+      '全局終了！ よっしゃ、最後までやり切ったな！',
+      '総合結果出たぞ、妹！ 途中で折れなかっただけでも偉ぇよ！',
+      '終わった終わった！ 次やるならもっと派手に行くからな！',
+      '勝負は最後まで走った奴が強ぇんだよ。今のは悪くなかった！',
+      'あー、燃えた！ 兄貴にも見せたいくらいの勝負だったな！'
+    ]
+  },
+  renya: {
+    final: [
+      '全局終わりやね。風向きは、最後までよう変わった。',
+      '結果出たで。焦らんかった奴が、最後に残ることもあるんよ。',
+      '終局や。南帆ちゃん、今の風、ちゃんと感じた？',
+      '長い勝負やったな。次もやるなら、風を読み直そか。',
+      '終わりは静かな方がええ。牌の音だけ残るくらいが、ちょうどええわ。'
+    ]
+  },
+  itsuki: {
+    final: [
+      '全局終了です。実に理に適った結果ですね。',
+      '総合結果が確定しました。南帆、流れの偏りまで見えましたか？',
+      'お疲れさまでした。勝負とは、最後に帳尻が合うものです。',
+      '終わりましたね。次はもう少し意地の悪い卓にしてみましょうか。',
+      'ふふ、記録するには良い対局でした。もう一度検証しても構いませんよ。'
+    ]
+  },
+  miko: {
+    final: [
+      '全局終了だね。波が引いたあとの静けさみたいで、綺麗。',
+      '結果が出たよ。守りながらでも、ちゃんと最後へ届くんだ。',
+      '長い勝負、お疲れさま。南帆、少し肩の力抜いていいよ。',
+      '終わったね。次はもっと穏やかな流れになるかもしれない。',
+      '勝負のあとに残る音って、波音に似てるね。私は好きだよ。'
+    ]
+  },
+  shion: {
+    final: [
+      '全局終了。巡りの果ては、やはりこうなったのね。',
+      '結果は確定したわ。時は何度でも伏線を回収するものよ。',
+      '終わりよ。あなたたち、最後までよく踊ったわね。',
+      '総合結果まで見れば、勝負の形がはっきりするでしょう？',
+      'もう一度やるなら、次の時の流れも私が見届けてあげる。'
+    ]
+  },
+  maximilien: {
+    final: [
+      '全局終了だ。総合結果とは、血統よりも冷酷に序列を示す。',
+      '結果は出た。……そして私は、マックスではない。',
+      '長い勝負だったな。君たちの健闘にも、多少の敬意は払おう。',
+      '終局だ。最後まで席に着いていたことだけは評価してやる。',
+      '勝者は記録に残る。敗者は、次に何を変えるかで価値が決まる。',
+      'この結果に異論はない。妙な愛称以外は、だが。'
+    ]
+  },
+  lucien: {
+    final: [
+      '終わったー！ ねえねえ、最後の結果、甘くて楽しかったね！',
+      '全局終了！ 僕、まだ遊べるよ？ もう一回噛んでいい？',
+      'あはは、結果出ちゃった。悔しい顔も嬉しい顔も、どっちも好き！',
+      '長かったけど飽きなかったよ。だってみんな反応かわいいんだもん。',
+      '終わり？ ほんとに？ じゃあ次の始まり、すぐ作ろうよ。'
+    ]
+  },
+  kaya: {
+    final: [
+      '全局終了。最後の痺れまで、ちゃんと味わえた？',
+      '結果が出たわね。迷いも焦りも、雷に照らすと綺麗だったわ。',
+      '終わりよ、南帆ちゃん。あなたの反応、最後まで退屈しなかった。',
+      '総合結果って残酷ね。でも、その残酷さが美しいの。',
+      '次も遊ぶ？ もっと迷って、もっと痺れてくれていいのよ。'
+    ]
+  },
+  takuma: {
+    final: [
+      '全局終了。……はは、最後までいい顔してたな。',
+      '結果出たね。勝っても負けても、残る念はけっこう旨いよ。',
+      '終わった終わった。煙草一本分くらい、余韻に浸りたいな。',
+      '長い勝負だったけど、嫌いじゃなかったよ。特に最後の空気。',
+      'もう一回やる？ 今度はもっと、揺れるところ見せてよ。'
+    ]
+  },
+  shinobu: {
+    final: [
+      '全局終了。記録完了です。非常に興味深い推移でした。',
+      '最終結果、保存しておきますね。ふふ、見返す価値があります。',
+      '終局です。途中の迷いも、勝因も敗因も、全部美しい資料になります。',
+      '南帆さん、最後までよく抗いましたね。記録者として嬉しいです。',
+      'もう一戦されますか？ 次の記録も、私は喜んで残しますよ。'
+    ]
+  },
+  kouga: {
+    final: [
+      '全局終了。ふふ、最後まで退屈しなかったよ。',
+      '結果出たね。アンタ、総合で見るとますます面白い打ち方する。',
+      '終わりか。名残惜しいな、もう少しアンタの顔を見ていたかった。',
+      '勝っても負けても色気が残る勝負ってあるんだよ。今のがそう。',
+      '次も来なよ。今度はもっと近い距離で、牌を見せて。'
+    ]
+  }
+};
+for (const [id, data] of Object.entries(FINAL_EVENT_VARIATIONS)) {
+  EVENT_VARIATIONS[id] = EVENT_VARIATIONS[id] || {};
+  for (const [event, lines] of Object.entries(data)) {
+    EVENT_VARIATIONS[id][event] = [...new Set([...(EVENT_VARIATIONS[id][event] || []), ...lines])];
+  }
+}
+
 
 const YAKU_CATEGORIES = [
   { id: 'easy', label: 'まず覚える' },
@@ -2353,6 +2546,10 @@ function exhaustiveDraw() {
 }
 
 function showDrawResult(tenpaiNames) {
+  if (isMatchFinal()) {
+    showFinalResult({ type: 'draw', tenpaiNames });
+    return;
+  }
   const el = $('resultOverlay');
   if (!el) return;
   const self = state.players[0] || characterById(selectedPlayer);
@@ -2512,7 +2709,7 @@ function renderHand() {
     btn.title = state.riichiPending
       ? (riichiCandidate ? `${TILE_TEXT[tile]}：これを切ると立直できる` : `${TILE_TEXT[tile]}：これを切るとテンパイが崩れる`)
       : (recommended ? `${TILE_TEXT[tile]}：おすすめ捨て牌` : TILE_TEXT[tile]);
-    btn.textContent = TILE_GLYPHS[tile];
+    btn.innerHTML = tileImageHtml(tile);
     btn.disabled = state.current !== 0 || state.locked || state.ended || player.hand.length % 3 !== 2 || (state.riichiPending && !riichiCandidate);
     btn.addEventListener('click', async () => {
       if (btn.disabled) return;
@@ -2699,7 +2896,7 @@ function renderRound() {
   const p = state.players[state.current];
   $('turnLabel').textContent = p ? `${p.name}の手番` : '準備中';
   $('wallLabel').textContent = `山: ${state.wall.length}`;
-  $('doraTile').textContent = state.dora == null ? '🀫' : TILE_GLYPHS[state.dora];
+  $('doraTile').innerHTML = state.dora == null ? '🀫' : tileImageHtml(state.dora);
   $('doraTile').className = `mini-tile ${state.dora != null ? tileClass(state.dora) : ''}`;
 }
 
@@ -2707,13 +2904,20 @@ function tileLabel(tile) {
   return `${TILE_GLYPHS[tile]}${TILE_TEXT[tile]}`;
 }
 
+function tileImageHtml(tile) {
+  const src = TILE_IMAGES[tile];
+  const alt = TILE_TEXT[tile] || '';
+  return src ? `<img class="tile-img" src="${src}" alt="${alt}" draggable="false">` : TILE_GLYPHS[tile];
+}
+
 function miniTileHtml(tile) {
-  return `<span class="mini-tile ${tileClass(tile)}" title="${TILE_TEXT[tile]}">${TILE_GLYPHS[tile]}</span>`;
+  return `<span class="mini-tile ${tileClass(tile)}" title="${TILE_TEXT[tile]}">${tileImageHtml(tile)}</span>`;
 }
 
 function tileClass(tile) {
   if (tile === 32) return 'green';
-  if (tile === 33 || (tile < 9) || (tile >= 18 && tile < 27)) return 'red';
+  if (tile === 33) return 'red dragon-red';
+  if ((tile < 9) || (tile >= 18 && tile < 27)) return 'red';
   return '';
 }
 
@@ -2808,6 +3012,10 @@ function hideResult() {
 }
 
 function showResult(winner, title, result, points, from, tile) {
+  if (isMatchFinal()) {
+    showFinalResult({ type: 'win', winner, title, result, points, from, tile });
+    return;
+  }
   const el = $('resultOverlay');
   if (!el || !winner) return;
   const yakuText = result?.yaku?.length ? result.yaku.join('・') : '役なし';
@@ -2838,6 +3046,93 @@ function showResult(winner, title, result, points, from, tile) {
     hideResult();
     (state.matchLength === Infinity || state.currentHand < state.matchLength) ? startGame(false) : startGame(true);
   });
+  el.querySelector('[data-result-action="close"]')?.addEventListener('click', hideResult);
+}
+
+
+function isMatchFinal() {
+  return state.matchLength !== Infinity && state.currentHand >= state.matchLength;
+}
+
+function rankedPlayers() {
+  const sorted = state.players
+    .map(p => ({ player: p, score: Number(p.score) || 0 }))
+    .sort((a, b) => (b.score - a.score) || (a.player.index - b.player.index));
+  let lastScore = null;
+  let lastRank = 0;
+  return sorted.map((entry, index) => {
+    const rank = entry.score === lastScore ? lastRank : index + 1;
+    lastScore = entry.score;
+    lastRank = rank;
+    return { ...entry, rank };
+  });
+}
+
+function scoreDeltaText(score) {
+  const delta = score - 25000;
+  if (delta === 0) return '±0';
+  return `${delta > 0 ? '+' : ''}${delta.toLocaleString('ja-JP')}`;
+}
+
+function finalLastLine(context) {
+  if (context?.type === 'draw') {
+    const names = context.tenpaiNames?.length ? `テンパイ：${context.tenpaiNames.join('、')}` : 'ノーテン';
+    return `最終局：流局 / ${names}`;
+  }
+  if (context?.type === 'win') {
+    const yakuText = context.result?.yaku?.length ? context.result.yaku.join('・') : '役なし';
+    const fromText = context.from ? `放銃：${context.from.name}` : '自摸和了';
+    return `最終局：${context.winner.name}の${context.title} / ${yakuText} / ${context.points.pay}点 / ${fromText}`;
+  }
+  return '全局終了。最終スコアが確定しました。';
+}
+
+function showFinalResult(context = {}) {
+  const el = $('resultOverlay');
+  if (!el) return;
+  const ranking = rankedPlayers();
+  const champion = ranking[0]?.player || state.players[0] || characterById(selectedPlayer);
+  const matchText = state.matchLength === Infinity ? `${state.currentHand}局終了` : `${state.matchLength}局終了`;
+  const rankingHtml = ranking.map(entry => {
+    const p = entry.player;
+    const delta = scoreDeltaText(entry.score);
+    return `<li class="final-rank-row ${entry.rank === 1 ? 'champion' : ''}">
+      <span class="final-rank-place">${entry.rank}位</span>
+      <span class="final-rank-name"><span>${escapeHtml(p.icon || '🀄')}</span>${escapeHtml(p.name)}</span>
+      <strong>${entry.score.toLocaleString('ja-JP')}点</strong>
+      <em>${escapeHtml(delta)}</em>
+    </li>`;
+  }).join('');
+  const quote = eventQuote(champion, 'final');
+  el.innerHTML = `
+    <div class="result-card final-result" style="--char-gradient:${champion.color || 'linear-gradient(135deg,#1e2438,#30234c)'}">
+      <div class="result-art">${cutinPortraitHtml(champion, 'result-portrait')}</div>
+      <div class="result-copy">
+        <p class="eyebrow">FINAL RESULT</p>
+        <h2><span>🏆</span>${escapeHtml(champion.name)}</h2>
+        <div class="result-badges">
+          <span>${escapeHtml(matchText)}</span>
+          <span>優勝 ${escapeHtml(champion.name)}</span>
+          <span>${champion.score.toLocaleString('ja-JP')}点</span>
+        </div>
+        <p class="result-line">${escapeHtml(finalLastLine(context))}</p>
+        <ol class="final-ranking">${rankingHtml}</ol>
+        <blockquote>${escapeHtml(quote)}</blockquote>
+        <div class="result-actions">
+          <button type="button" class="primary" data-result-action="restart">同じ設定でもう一戦</button>
+          <button type="button" class="ghost" data-result-action="select">対戦相手を選び直す</button>
+          <button type="button" class="ghost" data-result-action="close">結果を閉じる</button>
+        </div>
+      </div>
+    </div>
+  `;
+  el.classList.remove('hidden');
+  log(`対局終了。優勝は${champion.name}（${champion.score.toLocaleString('ja-JP')}点）。`, true);
+  el.querySelector('[data-result-action="restart"]')?.addEventListener('click', () => {
+    hideResult();
+    startGame(true);
+  });
+  el.querySelector('[data-result-action="select"]')?.addEventListener('click', () => returnToSelectFromGame('opponents'));
   el.querySelector('[data-result-action="close"]')?.addEventListener('click', hideResult);
 }
 

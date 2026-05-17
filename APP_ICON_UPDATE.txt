@@ -1,0 +1,3 @@
+アプリアイコンを assets/icon-192.png / assets/icon-512.png に更新済み。
+Android maskable icon は未設定です。
+PWAアイコンはキャッシュが強く残るため、反映されない場合はホーム画面のアプリを削除して再追加してください。
