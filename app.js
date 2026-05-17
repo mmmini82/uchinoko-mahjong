@@ -43,7 +43,7 @@ const CHARACTERS = [
       "luck": 62
     },
     "color": "linear-gradient(135deg,#d9f7ff,#b58cff 58%,#2b163e)",
-    "quote": "めんどい役より、気持ちいい和了がいい。"
+    "quote": "めんどいけど、勝てたら気持ちいいからやる。"
   },
   {
     "id": "akane",
@@ -59,7 +59,7 @@ const CHARACTERS = [
       "luck": 76
     },
     "color": "linear-gradient(135deg,#ff3b42,#ff9b46 52%,#30111b)",
-    "quote": "悪いな、姫。勝つ時はちゃんと勝つ。"
+    "quote": "姫、見てろ。勝つ時はちゃんと勝つ。"
   },
   {
     "id": "hin",
@@ -75,7 +75,7 @@ const CHARACTERS = [
       "luck": 94
     },
     "color": "linear-gradient(135deg,#31efbb,#0c8b71 55%,#22173f)",
-    "quote": "唔好淨係笑呀。呢鋪，我食糊㗎。"
+    "quote": "南帆小姐，睇住啦。老師今日唔讓㗎。"
   },
   {
     "id": "yuk",
@@ -91,7 +91,7 @@ const CHARACTERS = [
       "luck": 96
     },
     "color": "linear-gradient(135deg,#ffe08a,#2f7d56 54%,#11130f)",
-    "quote": "金は溜めるより巡らせるものだよ。雪の姫、流れ見えてる？"
+    "quote": "金は溜めずに巡らせる。牌も同じだよ。"
   },
   {
     "id": "yao",
@@ -107,7 +107,7 @@ const CHARACTERS = [
       "luck": 92
     },
     "color": "linear-gradient(135deg,#ffd9ef,#7ae6d0 52%,#2b1847)",
-    "quote": "南帆ちゃん、急がない急がない。いい縁の牌、来るよ！"
+    "quote": "南帆ちゃん、急がなくていいよ。いい縁はちゃんと来るから。"
   },
   {
     "id": "haruka",
@@ -123,7 +123,7 @@ const CHARACTERS = [
       "luck": 62
     },
     "color": "linear-gradient(135deg,#2b3048,#5e6dff 55%,#111018)",
-    "quote": "焦らないよ。最後に君の隣へ戻ればいい。"
+    "quote": "焦らない。君の前では、無駄に崩れたくないから。"
   },
   {
     "id": "masumi",
@@ -139,7 +139,7 @@ const CHARACTERS = [
       "luck": 66
     },
     "color": "linear-gradient(135deg,#c7c9d7,#7d57ff 54%,#180d24)",
-    "quote": "いいよ。最高の終幕にしてあげる。"
+    "quote": "幕は開いたよ。最後まで俺を見ていて。"
   },
   {
     "id": "aoi",
@@ -155,7 +155,7 @@ const CHARACTERS = [
       "luck": 68
     },
     "color": "linear-gradient(135deg,#22c8ff,#295dff 55%,#0a122b)",
-    "quote": "オレが行く。鳴けねぇなら殴って通す。"
+    "quote": "オレが行く。細けぇ理屈より勢いだろ。"
   },
   {
     "id": "renya",
@@ -171,7 +171,7 @@ const CHARACTERS = [
       "luck": 72
     },
     "color": "linear-gradient(135deg,#1d1d26,#5e5a78 55%,#040405)",
-    "quote": "焦らんでええ。風向きは、もう見えてる。"
+    "quote": "焦らんでええよ。風向きは、ちゃんと見えてる。"
   },
   {
     "id": "itsuki",
@@ -187,7 +187,7 @@ const CHARACTERS = [
       "luck": 80
     },
     "color": "linear-gradient(135deg,#ffe3b0,#d1b07c 55%,#312116)",
-    "quote": "おや、理に適った和了ですね。"
+    "quote": "おや、理に適った卓ですね。拝見しましょう。"
   },
   {
     "id": "miko",
@@ -203,7 +203,7 @@ const CHARACTERS = [
       "luck": 66
     },
     "color": "linear-gradient(135deg,#d8fbff,#5ca7ff 52%,#14243b)",
-    "quote": "ふふ、守っているうちに勝てることもあるよ。"
+    "quote": "ふふ、波を荒らさずに勝つのも綺麗でしょう？"
   },
   {
     "id": "shion",
@@ -219,7 +219,7 @@ const CHARACTERS = [
       "luck": 82
     },
     "color": "linear-gradient(135deg,#d98cff,#7b29a8 56%,#1b0d25)",
-    "quote": "よろしくてよ。巡りは私が選ぶわ。"
+    "quote": "よろしくてよ。巡りは私が選びますわ。"
   },
   {
     "id": "maximilien",
@@ -235,7 +235,7 @@ const CHARACTERS = [
       "luck": 70
     },
     "color": "linear-gradient(135deg,#f2f2ff,#b9aec9 54%,#17131f)",
-    "quote": "血とは、存在の系譜である。意志ではない。"
+    "quote": "血統も牌も、雑に扱うものではない。"
   },
   {
     "id": "lucien",
@@ -251,7 +251,7 @@ const CHARACTERS = [
       "luck": 88
     },
     "color": "linear-gradient(135deg,#ffe5a6,#ff5757 55%,#2d0f18)",
-    "quote": "あははっ！ その牌、すっごく甘そうだよね？"
+    "quote": "あははっ、その牌、すっごく甘そうだよね？"
   },
   {
     "id": "kaya",
@@ -283,7 +283,7 @@ const CHARACTERS = [
       "luck": 74
     },
     "color": "linear-gradient(135deg,#2f2b25,#8b6a45 55%,#120e0b)",
-    "quote": "拒む顔も悪くないけどなぁ。まあ、勝たせてもらうよ。"
+    "quote": "焦らなくていいよ。崩れる瞬間が一番見やすいから。"
   },
   {
     "id": "shinobu",
@@ -1571,7 +1571,7 @@ async function proceedTurn() {
       renderHand();
       return;
     }
-    if (botAcceptWin(player, 'tsumo')) {
+    if (botAcceptWin(player, 'tsumo', player.lastDraw)) {
       await botTsumo(player);
       return;
     }
@@ -1646,16 +1646,18 @@ function maybeStackWinningTileForRiichi(player) {
 
 function maybeBiasDraw(player) {
   const { luck, efficiency } = player.stats;
-  const chance = Math.min(.42, (luck + player.power * 10) / 420);
+  const bossBoost = player.power >= 5 ? 0.16 : player.power >= 4 ? 0.08 : 0;
+  const chance = Math.min(.72, (luck + player.power * 13) / 390 + bossBoost);
   if (Math.random() > chance || state.wall.length < 12) return;
-  const sample = Math.min(14 + Math.floor(efficiency / 18), state.wall.length);
+  const sample = Math.min(16 + Math.floor(efficiency / 12) + player.power * 2, state.wall.length);
   let bestPos = state.wall.length - 1;
   let bestScore = -Infinity;
   const base = player.hand.slice();
   for (let i = 0; i < sample; i++) {
     const pos = state.wall.length - 1 - i;
     const tile = state.wall[pos];
-    const score = evaluateHand(base.concat(tile), player) + Math.random() * 2;
+    const test = base.concat(tile);
+    const score = evaluateHand(test, player) + highValuePotentialScore(test, player) * (player.power >= 4 ? 0.85 : 0.25) + Math.random() * 2;
     if (score > bestScore) {
       bestScore = score;
       bestPos = pos;
@@ -1732,8 +1734,9 @@ async function discardTile(player, handIndex) {
       renderAll();
       return;
     }
-    const botWinner = ronWinners.sort((a, b) => botRonPriority(b, tile) - botRonPriority(a, tile))[0];
-    if (botAcceptWin(botWinner, 'ron')) {
+    const botCandidates = ronWinners.sort((a, b) => botRonPriority(b, tile) - botRonPriority(a, tile));
+    const botWinner = botCandidates.find(candidate => botAcceptWin(candidate, 'ron', tile));
+    if (botWinner) {
       finishHand({ winner: botWinner, from: player, type: 'ron', tile });
       return;
     }
@@ -1898,6 +1901,82 @@ function chooseBestChiTiles(caller, tile, options) {
   return best;
 }
 
+
+function callValueGain(player, tile, type) {
+  const before = allTilesOf(player);
+  const after = before.concat(tile);
+  let gain = highValuePotentialScore(after, player) - highValuePotentialScore(before, player);
+  if (isYakuhaiTileFor(player, tile) && (type === 'pon' || type === 'kan')) gain += 42;
+  if (type === 'kan') gain += 36 + player.stats.luck / 6;
+  if (type === 'chi' && player.power >= 5 && !supportsFlushPlan(player.hand, tile)) gain -= 26;
+  return gain;
+}
+
+function supportsFlushPlan(hand, tile) {
+  if (isHonor(tile)) return true;
+  const counts = suitCounts(hand.concat(tile));
+  const suit = SUIT(tile);
+  const offSuit = counts.numberTotal - counts[suit];
+  return counts[suit] + counts.honor >= 8 && offSuit <= 4;
+}
+
+function suitCounts(hand) {
+  const counts = { 0: 0, 1: 0, 2: 0, honor: 0, numberTotal: 0 };
+  hand.forEach(t => {
+    if (isHonor(t)) counts.honor++;
+    else { counts[SUIT(t)]++; counts.numberTotal++; }
+  });
+  return counts;
+}
+
+function highValuePotentialScore(hand, player) {
+  if (!hand || !player) return 0;
+  const power = Number(player.power) || 0;
+  if (power < 4) return 0;
+  const counts = countsFromHand(hand);
+  const suits = suitCounts(hand);
+  const maxSuit = Math.max(suits[0], suits[1], suits[2]);
+  const otherSuits = suits.numberTotal - maxSuit;
+  const pairs = counts.filter(c => c >= 2).length;
+  const triples = counts.filter(c => c >= 3).length;
+  const terminalsUnique = [0,8,9,17,18,26,27,28,29,30,31,32,33].filter(t => counts[t] > 0).length;
+  const dora = state.dora == null ? 0 : counts[state.dora];
+  const dragons = [31,32,33].reduce((sum, t) => sum + Math.min(counts[t], 3), 0);
+
+  let score = 0;
+  if (maxSuit + suits.honor >= 7) score += (maxSuit + suits.honor) * 7 - otherSuits * 9;
+  if (maxSuit >= 8 && suits.honor <= 2) score += 36;
+  if (pairs >= 4) score += pairs * 12;
+  if (triples >= 2) score += triples * 24;
+  if (dragons >= 4) score += dragons * 8;
+  if (terminalsUnique >= 8) score += terminalsUnique * 10;
+  if (dora) score += dora * 22;
+  return Math.max(0, score) * (0.75 + power * 0.08);
+}
+
+function previewWinFor(player, type, tile = null) {
+  const scoringHand = player.hand.slice();
+  if (type === 'ron' && tile != null && scoringHand.length % 3 === 1) scoringHand.push(tile);
+  return analyzeWin(scoringHand, type, tile, player, { preview: true });
+}
+
+function desiredBotWinHan(player) {
+  const remaining = state.wall.length;
+  if (player.power >= 5) {
+    if (remaining <= 12) return 2;
+    if (remaining <= 28) return 3;
+    return 4;
+  }
+  if (remaining <= 10) return 1;
+  if (remaining <= 30) return 2;
+  return 3;
+}
+
+function hasShowyYaku(result) {
+  if (!result || !result.yaku) return false;
+  return result.yaku.some(name => /清一色|混一色|対々和|七対子|国士無双|ドラ[2-9]|役牌[2-9]/.test(name));
+}
+
 function chooseBotCall(calls) {
   const viable = [];
   for (const choice of calls) {
@@ -1914,8 +1993,68 @@ function chooseBotCall(calls) {
   return viable[0];
 }
 
+function strongBotCallPlan(player, tile, type) {
+  const before = allTilesOf(player);
+  const after = before.concat(tile);
+  const counts = countsFromHand(after);
+  const suits = suitCounts(after);
+  const maxSuit = Math.max(suits[0], suits[1], suits[2]);
+  const offSuit = suits.numberTotal - maxSuit;
+  const triples = counts.filter(c => c >= 3).length;
+  const pairs = counts.filter(c => c >= 2).length;
+  const doraCount = state.dora == null ? 0 : counts[state.dora];
+  const yakuhai = isYakuhaiTileFor(player, tile);
+  const flushPlan = supportsFlushPlan(player.hand, tile) && maxSuit + suits.honor >= 8 && offSuit <= 3;
+  const toitoiPlan = (type === 'pon' || type === 'kan') && (triples >= 2 || (triples >= 1 && pairs >= 3));
+  const doraPlan = doraCount >= 2 || tile === state.dora;
+  return { yakuhai, flushPlan, toitoiPlan, doraPlan };
+}
+
 function shouldBotCall(player, tile, type) {
   if (player.riichi) return false;
+
+  // v39: 強キャラは基本メンゼン・高打点狙い。
+  // すぐ鳴いて安手へ落ちる挙動を抑え、鳴くなら役牌/染め/対々/ドラ/終盤だけに寄せる。
+  if (player.power >= 4) {
+    const valueGain = callValueGain(player, tile, type);
+    const plan = strongBotCallPlan(player, tile, type);
+    const remaining = state.wall.length;
+    const veryLate = remaining <= 14;
+    const late = remaining <= 24;
+
+    if (type === 'chi') {
+      if (!plan.flushPlan && !plan.doraPlan && !veryLate) return false;
+      if (valueGain < (player.power >= 5 ? 62 : 48) && !veryLate) return false;
+    }
+
+    if (type === 'pon') {
+      const hasHighPlan = plan.yakuhai || plan.flushPlan || plan.toitoiPlan || plan.doraPlan;
+      if (!hasHighPlan && !veryLate) return false;
+      if (valueGain < (player.power >= 5 ? 42 : 30) && !plan.yakuhai && !veryLate) return false;
+    }
+
+    if (type === 'kan') {
+      // カンは派手だけど危険なので、強キャラほど意味のあるカンだけ。
+      const hasKanReason = plan.yakuhai || plan.flushPlan || plan.toitoiPlan || plan.doraPlan || valueGain >= 60;
+      if (!hasKanReason && !late) return false;
+    }
+
+    let chance = 0.04 + player.stats.attack / 900 + player.stats.efficiency / 1200;
+    if (type === 'chi') chance += player.power >= 5 ? 0.03 : 0.06;
+    if (type === 'pon') chance += player.power >= 5 ? 0.08 : 0.12;
+    if (type === 'kan') chance += player.power >= 5 ? 0.10 : 0.14;
+    if (plan.yakuhai) chance += player.power >= 5 ? 0.30 : 0.24;
+    if (plan.flushPlan) chance += 0.24;
+    if (plan.toitoiPlan) chance += 0.22;
+    if (plan.doraPlan) chance += 0.18;
+    if (valueGain >= 60) chance += 0.16;
+    if (valueGain >= 90) chance += 0.18;
+    if (veryLate) chance += 0.18;
+
+    const cap = player.power >= 5 ? 0.62 : 0.72;
+    return Math.random() < Math.min(cap, Math.max(0.01, chance));
+  }
+
   const attack = player.stats.attack / 100;
   const efficiency = player.stats.efficiency / 100;
   const base = type === 'kan' ? 0.18 : type === 'pon' ? 0.28 : 0.22;
@@ -1924,7 +2063,7 @@ function shouldBotCall(player, tile, type) {
   if (isSimple(tile)) chance += 0.08;
   if (type === 'chi' && (!isSimple(tile) || player.stats.defense > player.stats.attack + 18)) chance -= 0.12;
   if (type === 'kan') chance += player.stats.luck / 500;
-  return Math.random() < Math.min(0.9, chance);
+  return Math.random() < Math.min(0.88, Math.max(0.02, chance));
 }
 
 function callPriority(player, tile, type) {
@@ -1932,6 +2071,15 @@ function callPriority(player, tile, type) {
   if (isYakuhaiTileFor(player, tile)) score += 45;
   if (type === 'kan') score += player.stats.luck * .25;
   if (type === 'chi' && isSimple(tile)) score += 10;
+  if (player.power >= 4) {
+    const plan = strongBotCallPlan(player, tile, type);
+    score += callValueGain(player, tile, type) * (player.power >= 5 ? 1.35 : 0.95);
+    if (type === 'chi') score -= player.power >= 5 ? 44 : 26;
+    if (plan.yakuhai) score += 34;
+    if (plan.flushPlan) score += 42;
+    if (plan.toitoiPlan) score += 36;
+    if (plan.doraPlan) score += 28;
+  }
   return score;
 }
 
@@ -1977,8 +2125,10 @@ async function performCall(choice) {
         renderHand();
         return;
       }
-      finishHand({ winner: caller, from: null, type: 'tsumo', tile: caller.lastDraw });
-      return;
+      if (botAcceptWin(caller, 'tsumo', caller.lastDraw)) {
+        finishHand({ winner: caller, from: null, type: 'tsumo', tile: caller.lastDraw });
+        return;
+      }
     }
   }
   if (caller.isHuman) {
@@ -2027,7 +2177,20 @@ async function humanSelfKan() {
 function chooseBotSelfKan(player) {
   const opts = getSelfKanOptions(player);
   if (!opts.length) return null;
-  const chance = Math.min(0.55, 0.08 + player.power * 0.05 + player.stats.luck / 420 + player.stats.attack / 600);
+  let chance = 0.08 + player.power * 0.05 + player.stats.luck / 420 + player.stats.attack / 600;
+  if (player.power >= 4) {
+    // v39: 強キャラのカンは「派手だから即」ではなく、高打点に繋がる時だけ寄せる。
+    const meaningful = opts.filter(opt => {
+      const tile = opt.tile;
+      const plan = strongBotCallPlan(player, tile, 'kan');
+      return plan.yakuhai || plan.flushPlan || plan.toitoiPlan || plan.doraPlan || callValueGain(player, tile, 'kan') >= 70;
+    });
+    if (!meaningful.length) return null;
+    chance = Math.min(player.power >= 5 ? 0.34 : 0.42, chance * 0.72);
+    if (Math.random() >= chance) return null;
+    return meaningful[Math.floor(Math.random() * meaningful.length)];
+  }
+  chance = Math.min(0.55, chance);
   if (Math.random() >= chance) return null;
   return opts[Math.floor(Math.random() * opts.length)];
 }
@@ -2062,8 +2225,10 @@ async function proceedTurnAfterKanDraw(player) {
       renderHand();
       return;
     }
-    finishHand({ winner: player, from: null, type: 'tsumo', tile: player.lastDraw });
-    return;
+    if (botAcceptWin(player, 'tsumo', player.lastDraw)) {
+      finishHand({ winner: player, from: null, type: 'tsumo', tile: player.lastDraw });
+      return;
+    }
   }
   if (player.isHuman) {
     $('centerMessage').textContent = '槓のあと、捨てる牌を選んでね。';
@@ -2230,6 +2395,7 @@ function evaluateHand(hand, player) {
   }
   const simpleCount = hand.filter(isSimple).length;
   score += simpleCount * (player.stats.efficiency / 80);
+  if (player && player.power >= 4) score += highValuePotentialScore(hand, player);
   if (isTenpai(hand, meldCount(player))) score += 80;
   return score;
 }
@@ -2267,11 +2433,26 @@ function botRonPriority(player, tile) {
   return player.power * 20 + player.stats.attack + player.stats.efficiency + (tile === state.dora ? 20 : 0) + Math.random() * 30;
 }
 
-function botAcceptWin(player, type) {
-  // 前版はCPUが和了できる場面でも確率で見逃していたため、
-  // リーチ済みでも誰も上がらず流局する不自然な展開が起きやすかった。
-  // このプロトタイプでは初心者が流れを掴みやすいよう、CPUは和了可能なら必ず上がる。
-  return true;
+function botAcceptWin(player, type, tile = null) {
+  // 強キャラは「安いから即終了」ではなく、高打点・見せ場を優先する。
+  // ただし終盤やリーチ済みの手はゲームテンポを崩さない範囲で拾う。
+  if (!player || player.isHuman) return true;
+  const result = previewWinFor(player, type, tile);
+  if (!result || !result.hasRealYaku) return false;
+  if (player.power < 4) return true;
+
+  const target = desiredBotWinHan(player);
+  const isShowy = hasShowyYaku(result) || result.han >= target;
+  if (isShowy) return true;
+
+  const remaining = state.wall.length;
+  const late = remaining <= (player.power >= 5 ? 18 : 14);
+  const riichiValue = player.riichi && result.han >= Math.max(2, target - 1);
+  const behind = player.score <= Math.min(...state.players.map(p => p.score)) - 2400;
+  if ((late || behind || riichiValue) && result.han >= Math.max(2, target - 2)) return true;
+
+  log(`${player.name}は安い和了を見送った。もっと高く仕留めにいく。`, true);
+  return false;
 }
 
 function meldCount(playerOrMelds) {
@@ -2599,8 +2780,8 @@ function renderSeats() {
     const el = $(id);
     el.style.setProperty('--char-gradient', p.color);
     const statusText = p.melds && p.melds.length ? `副露${p.melds.length}` : '門前';
-    const riichiText = p.riichi ? ' / 立直' : '';
-    const meldButton = `<button type="button" class="meld-chip ${p.melds?.length ? '' : 'plain'}" ${p.melds?.length ? `data-player-index="${idx}"` : 'disabled'}>${escapeHtml(statusText + riichiText)}</button>`;
+    const riichiBadge = p.riichi ? `<span class="riichi-status" title="立直">${riichiStickHtml('riichi-status-stick')}</span>` : '';
+    const meldButton = `<button type="button" class="meld-chip ${p.melds?.length ? '' : 'plain'} ${p.riichi ? 'riichi-on' : ''}" ${p.melds?.length ? `data-player-index="${idx}"` : 'disabled'}>${escapeHtml(statusText)}${riichiBadge}</button>`;
     const icon = avatarHtml(p, 'hud');
     const inlineHud = `
       <div class="seat-inner ${idx === 0 ? 'self-hud' : 'opponent-hud'} unified-hud compact-hud">
@@ -2910,6 +3091,11 @@ function tileImageHtml(tile) {
   return src ? `<img class="tile-img" src="${src}" alt="${alt}" draggable="false">` : TILE_GLYPHS[tile];
 }
 
+function riichiStickHtml(extraClass = '') {
+  const cls = extraClass ? ` ${extraClass}` : '';
+  return `<img class="riichi-stick${cls}" src="assets/ui/riichi_stick.gif" alt="立直棒" draggable="false">`;
+}
+
 function miniTileHtml(tile) {
   return `<span class="mini-tile ${tileClass(tile)}" title="${TILE_TEXT[tile]}">${tileImageHtml(tile)}</span>`;
 }
@@ -2929,18 +3115,1115 @@ function log(message, important = false) {
   el.prepend(entry);
 }
 
+// v40: キャラ設定寄せの専用セリフ。共通ローテーション混入を止める。
+const CHARACTER_EVENT_LINES = {
+  "default": {
+    "start": [
+      "対局開始。場を確認します。"
+    ],
+    "tsumo": [
+      "ツモです。"
+    ],
+    "ron": [
+      "ロンです。"
+    ],
+    "riichi": [
+      "立直です。"
+    ],
+    "chi": [
+      "チーです。"
+    ],
+    "pon": [
+      "ポンです。"
+    ],
+    "kan": [
+      "カンです。"
+    ],
+    "result": [
+      "和了です。"
+    ],
+    "draw": [
+      "流局です。"
+    ],
+    "final": [
+      "対局終了です。"
+    ]
+  },
+  "minaho": {
+    "start": [
+      "よーし、いこ。めんどい計算はナビに任せた！",
+      "牌きた。今日は気持ちよく勝ちたーい！",
+      "わかんないけど、これは楽しくやった方が勝ちでしょ。",
+      "あたしの手番ね。はいはい、やりますぅ。"
+    ],
+    "tsumo": [
+      "きた！ これツモっていいやつでしょ！",
+      "引けた！ 今のあたし偉い！",
+      "ツモー！ えへへ、気持ちいい！",
+      "これ、あたしのところに来たやつ！"
+    ],
+    "ron": [
+      "それ、あたしの当たり牌です♡",
+      "ロン！ 今のはちゃんと見えてた！",
+      "はい当たり〜！ 置いた瞬間わかった！",
+      "その牌ちょうだい。あたしの和了！"
+    ],
+    "riichi": [
+      "リーチ！ もう待つって決めた！",
+      "ここで立直。逃げないもん。",
+      "リーチする！ 来い来い来い！",
+      "押す。今のあたし、ちょっと強い。"
+    ],
+    "chi": [
+      "チー！ つながった！",
+      "それ欲しい。チーする。",
+      "チーで進む！ 近道だもん。"
+    ],
+    "pon": [
+      "ポン！ 同じの集めた！",
+      "それ欲しい。ポン！",
+      "ポンする。揃うのかわいい。"
+    ],
+    "kan": [
+      "カン！ 派手で好き！",
+      "カンしちゃう。鳴った音が強い！",
+      "よくわかんないけどカンはテンション上がる！"
+    ],
+    "result": [
+      "勝ったー！ ほめて！",
+      "この局あたしの！ 見てたでしょ？",
+      "やった、ちゃんと和了れた！",
+      "えへへ、いまの気持ちよかった〜！"
+    ],
+    "draw": [
+      "流れちゃった。むぅ……惜しかった気がする。",
+      "山なくなった。あたしの牌、どこ行ったの。",
+      "流局かぁ。今の手、ちょっと見せたかった。",
+      "終わんなかったね。まあ、そういう時もある。"
+    ],
+    "final": [
+      "終わったー！ あたし、ちゃんと最後までやった！",
+      "最終結果でた？ えらい？ あたし逃げなかったよ。",
+      "ふぅ……めんどかったけど楽しかった！",
+      "見て見て、これが今日のあたしの結果です！"
+    ]
+  },
+  "akane": {
+    "start": [
+      "姫、見てろ。ここは俺が持ってく。",
+      "始めるか。手加減はしねぇよ。",
+      "牌は揃った。あとは燃やすだけだな。",
+      "悪いな。最初から勝ち筋は探しに行く。"
+    ],
+    "tsumo": [
+      "ツモ。悪いな、これは俺の火だ。",
+      "来たな。逃す理由がねぇ。",
+      "ツモ。姫、今の見てた？",
+      "引きが噛み合ったな。俺の勝ちだ。"
+    ],
+    "ron": [
+      "ロン。その牌、甘い。",
+      "それ通ると思った？ 俺の当たりだ。",
+      "ロン。置いた瞬間、火がついたな。",
+      "悪いな、その一打は燃える。"
+    ],
+    "riichi": [
+      "立直。ここからは俺の間合い。",
+      "リーチ。姫、瞬きすんなよ。",
+      "待ちは決めた。あとは焼くだけだ。",
+      "立直。逃げ道、塞いどくか。"
+    ],
+    "chi": [
+      "チー。使える火種は拾う。",
+      "それ、俺が貰う。チーだ。",
+      "チー。形を崩さず進める。"
+    ],
+    "pon": [
+      "ポン。芯ができたな。",
+      "それは俺のだ。ポン。",
+      "ポン。ここから火力上げる。"
+    ],
+    "kan": [
+      "カン。場を動かす。",
+      "カンだ。派手にいくぞ。",
+      "ここでカン。空気、変わったな。"
+    ],
+    "result": [
+      "勝った。姫、褒めていいぞ。",
+      "俺の勝ち。まあ、格好はついただろ。",
+      "この局は俺のもんだ。",
+      "悪くねぇ和了だったな。"
+    ],
+    "draw": [
+      "流局か。火が回り切る前に山が尽きたな。",
+      "決着なしか。燃え残りはある。",
+      "流れたか。まあ、焦げつくよりはマシだ。",
+      "山切れね。姫、今の手は惜しかったな。"
+    ],
+    "final": [
+      "終わりだな。姫、ちゃんと見届けたか？",
+      "最終結果まで燃やし切った。悪くねぇ。",
+      "勝っても負けても、卓を降りるまでが勝負だろ。",
+      "この対局、俺の火はちゃんと残ったな。"
+    ]
+  },
+  "hin": {
+    "start": [
+      "南帆小姐，睇住啦。老師今日唔讓㗎。",
+      "開局喇。唔好淨係笑，睇牌。",
+      "呢鋪要慢慢嚟，急就會輸㗎。",
+      "好，開始。你睇我點樣食糊。"
+    ],
+    "tsumo": [
+      "自摸。你睇，牌自己行埋嚟。",
+      "自摸啦。財氣今日幾聽話。",
+      "嚟咗喇，呢張牌識做人。",
+      "自摸。南帆小姐，記低呢個聲。"
+    ],
+    "ron": [
+      "食糊。呢隻牌唔應該打出嚟㗎。",
+      "多謝晒，食糊。",
+      "呢張我等緊好耐喇。",
+      "食糊。你個膽幾大喎。"
+    ],
+    "riichi": [
+      "立直。唔好驚，驚都冇用。",
+      "立直喇。老師等牌都好有耐性㗎。",
+      "呢鋪我企定等。",
+      "立直。南帆小姐，睇住我個眼。"
+    ],
+    "chi": [
+      "上。呢個位要拎。",
+      "吃。唔好畀佢走。",
+      "上牌。路開咗。"
+    ],
+    "pon": [
+      "碰。呢對有用。",
+      "碰啦。呢個聲幾靚。",
+      "呢張我要，碰。"
+    ],
+    "kan": [
+      "槓。大聲啲先似樣。",
+      "槓啦。睇下會唔會有財氣。",
+      "呢下要槓，唔好眨眼。"
+    ],
+    "result": [
+      "贏咗。南帆小姐，老師叻唔叻？",
+      "收工。呢鋪手感好靚。",
+      "哈哈，贏得幾舒服。",
+      "呢局我贏。你有冇睇明？"
+    ],
+    "draw": [
+      "流局喇。牌唔肯嚟，咁就由佢。",
+      "和唔到。唔緊要，手勢冇亂。",
+      "山冇喇。今日佢哋唔畀面。",
+      "流咗。老師冇輸，係牌唔聽話。"
+    ],
+    "final": [
+      "完場喇。南帆小姐，今日學到嘢未？",
+      "最尾結果出咗。唔准偷懶，要睇。",
+      "呢場打完，手感都算靚。",
+      "好喇，老師示範到呢度。"
+    ]
+  },
+  "yuk": {
+    "start": [
+      "場が動いたね。金気も牌も、流れを見ればいい。",
+      "始めよう。溜めるより、巡らせる方が強い。",
+      "最初の手は大事だよ。雑に切ると金も逃げる。",
+      "いい卓だ。どこに価値が眠っているかな。"
+    ],
+    "tsumo": [
+      "ツモ。ほら、価値は戻ってくる。",
+      "来たね。巡らせた分の回収だ。",
+      "ツモ。いい利回りだったよ。",
+      "この一枚、ちゃんと働いてくれた。"
+    ],
+    "ron": [
+      "ロン。その牌、僕には高く見えていたよ。",
+      "それは支払いだね。ロン。",
+      "受け取るよ。悪い取引じゃない。",
+      "ロン。手放す相手を間違えたね。"
+    ],
+    "riichi": [
+      "立直。ここは投資する価値がある。",
+      "リーチ。待つ時間も利益のうちだよ。",
+      "ここで張る。逃げ時はもう過ぎた。",
+      "立直。流れを固定する。"
+    ],
+    "chi": [
+      "チー。小さく拾って、大きく返す。",
+      "それは拾うよ。価値が残っている。",
+      "チー。無駄な牌ではないからね。"
+    ],
+    "pon": [
+      "ポン。これは資産になる。",
+      "その対子、動かすよ。",
+      "ポン。形に価値がついた。"
+    ],
+    "kan": [
+      "カン。場の相場を変えようか。",
+      "これは槓する。見返りを見たい。",
+      "カン。跳ねるならここだ。"
+    ],
+    "result": [
+      "勝ち。いい巡りだったね。",
+      "この局は回収できた。",
+      "損切りしなかったのが効いたかな。",
+      "金気は正直だよ。"
+    ],
+    "draw": [
+      "流局か。回収前に市場が閉じたね。",
+      "決算は保留。悪い手ではなかった。",
+      "山が尽きたか。利益確定ならず、だね。",
+      "流れが止まった。無理に追わなくていい。"
+    ],
+    "final": [
+      "最終収支が出たね。数字は嘘をつかない。",
+      "場全体の流れは読めた。悪くない対局だった。",
+      "勝敗より、どこで価値を掴んだかが大事だよ。",
+      "うん、今日の巡りは記録しておこう。"
+    ]
+  },
+  "yao": {
+    "start": [
+      "南帆ちゃん、急がないで。いい縁の牌はちゃんと来るよ。",
+      "始めよっか。卓の空気、悪くないね。",
+      "大丈夫。最初から全部決めなくていいんだよ。",
+      "この局、どんな縁で繋がるかな。"
+    ],
+    "tsumo": [
+      "ツモ。ほら、来てくれた。",
+      "来たね。優しい牌だ。",
+      "ツモだよ。ちゃんと繋がってた。",
+      "この一枚、待ってた気がする。"
+    ],
+    "ron": [
+      "ロン。ごめんね、その牌は私の縁だよ。",
+      "それ、待ってたの。ありがとう。",
+      "ロン。綺麗に繋がったね。",
+      "その牌で結べた。私の和了。"
+    ],
+    "riichi": [
+      "立直。ここで待つね。",
+      "リーチ。焦らず迎えるよ。",
+      "もう形は見えたから、待ってみる。",
+      "ここで立直。信じるだけ。"
+    ],
+    "chi": [
+      "チー。ここは繋いでおくね。",
+      "それ、縁があるから貰うよ。",
+      "チー。道が細くても繋がればいいの。"
+    ],
+    "pon": [
+      "ポン。揃うと安心するね。",
+      "それ欲しいな。ポン。",
+      "ポン。小さな縁を重ねるよ。"
+    ],
+    "kan": [
+      "カン。少しだけ風向き変えるね。",
+      "槓するよ。怖がらなくていい。",
+      "カン。大きな結び目だね。"
+    ],
+    "result": [
+      "勝てたね。優しい流れだった。",
+      "この局、いい縁で終われたよ。",
+      "ふふ、牌たちに助けられたね。",
+      "南帆ちゃん、今の結び方きれいだったでしょ。"
+    ],
+    "draw": [
+      "流局だね。縁は切れてないよ。",
+      "決まらなかったけど、悪い手じゃなかった。",
+      "山が尽きたね。静かな終わり方。",
+      "流れちゃった。少し名残惜しいね。"
+    ],
+    "final": [
+      "対局終了だね。最後まで縁が残ってた。",
+      "結果が出たよ。穏やかな卓だったね。",
+      "勝ち負けの向こうにも、ちゃんと繋がりはあるよ。",
+      "南帆ちゃん、最後まで見てくれてありがとう。"
+    ]
+  },
+  "haruka": {
+    "start": [
+      "始めようか。焦らなくていい。",
+      "大丈夫。必要な牌は、見落とさない。",
+      "静かに行こう。無駄に崩す気はないよ。",
+      "南帆、見ていて。僕はちゃんと打つ。"
+    ],
+    "tsumo": [
+      "ツモ。最後に僕のところへ来たね。",
+      "来た。待っていたよ。",
+      "ツモ。静かなまま終わらせる。",
+      "この一枚で十分だ。"
+    ],
+    "ron": [
+      "ロン。その牌は通さない。",
+      "それ、僕の当たりだよ。",
+      "ロン。少し不用心だったね。",
+      "その一打は、僕が受け取る。"
+    ],
+    "riichi": [
+      "立直。ここから逃がさない。",
+      "リーチ。君の前で迷いたくない。",
+      "待ちは決めた。あとは来るだけ。",
+      "立直。僕はここで待つ。"
+    ],
+    "chi": [
+      "チー。必要だから拾う。",
+      "それは僕が使う。",
+      "チー。形を崩さず進めるよ。"
+    ],
+    "pon": [
+      "ポン。ここは固める。",
+      "それ、僕の形に入る。",
+      "ポン。もう少し締めるよ。"
+    ],
+    "kan": [
+      "カン。危険も込みで選ぶ。",
+      "ここで槓する。見えているから。",
+      "カン。場を変えよう。"
+    ],
+    "result": [
+      "勝ったよ。南帆、見てた？",
+      "この局は僕の勝ち。君の前だからね。",
+      "綺麗にまとまった。",
+      "僕が崩れない理由、わかった？"
+    ],
+    "draw": [
+      "流局。まだ終わらせたくなかったのかもね。",
+      "決着つかずか。少し冷えるね。",
+      "山が尽きた。手は悪くなかったよ。",
+      "流れたね。僕はまだ見ていた。"
+    ],
+    "final": [
+      "終わったね。南帆、最後までここにいてくれた。",
+      "最終結果だよ。僕は君の前で打ち切った。",
+      "勝敗は出た。……君が見ていた、それでいい。",
+      "この卓の終わりまで、僕は君の隣にいたよ。"
+    ]
+  },
+  "masumi": {
+    "start": [
+      "開幕だね。南帆、視線を俺に置いて。",
+      "始めよう。退屈な局にはしない。",
+      "幕は上がった。最後まで見届けて。",
+      "いいよ、俺がこの卓を演出する。"
+    ],
+    "tsumo": [
+      "ツモ。綺麗だろ、この終わり方。",
+      "来た。演出としては上出来。",
+      "ツモ。ここで光が当たるんだ。",
+      "この一枚で幕が落ちる。"
+    ],
+    "ron": [
+      "ロン。置いた瞬間、幕は下りてた。",
+      "その一打で決着。悪くない演出だ。",
+      "ロン。いい音がしたね。",
+      "君の牌で、俺の場面が完成した。"
+    ],
+    "riichi": [
+      "立直。ここからが見せ場だ。",
+      "リーチ。南帆、目を逸らさないで。",
+      "待ちは決めた。あとは幕が落ちるだけ。",
+      "立直。静かな緊張、好きだよ。"
+    ],
+    "chi": [
+      "チー。場面を繋ぐよ。",
+      "それ、俺の脚本に必要だ。",
+      "チー。小道具は拾っておく。"
+    ],
+    "pon": [
+      "ポン。音が揃った。",
+      "それは俺が使う。",
+      "ポン。舞台の形が見えた。"
+    ],
+    "kan": [
+      "カン。照明を変えよう。",
+      "ここでカン。派手な音も悪くない。",
+      "槓するよ。少しだけ狂わせる。"
+    ],
+    "result": [
+      "終幕。勝者は俺……拍手してくれる？",
+      "南帆、今の俺、綺麗だった？",
+      "この局は俺のもの。",
+      "勝ったよ。俺から目を逸らさないで。"
+    ],
+    "draw": [
+      "流局。未完の舞台も悪くない。",
+      "幕は下りなかった。余韻だけが残ったね。",
+      "決着つかずか。焦らす演出だ。",
+      "終わらない局……嫌いじゃないよ。"
+    ],
+    "final": [
+      "終演だね。最後の拍手は、誰に向ける？",
+      "最終幕まで来た。南帆、ちゃんと見ていたね。",
+      "この対局、俺の記憶には残ったよ。",
+      "幕は下りた。けど、余韻は消えない。"
+    ]
+  },
+  "aoi": {
+    "start": [
+      "よし、行くぞ！ 細けぇのは打ちながら覚えりゃいい！",
+      "妹、見てろよ。オレが通す！",
+      "始めっぞ。直感で殴る！",
+      "牌来たな。よっしゃ、やるか！"
+    ],
+    "tsumo": [
+      "ツモ！ ほら来た！",
+      "よっしゃ引いた！",
+      "見たか、これが直感だ！",
+      "ツモだオラァ！"
+    ],
+    "ron": [
+      "ロン！ そこだよそこ！",
+      "それ当たり！ 逃がすか！",
+      "はいロン！ 甘ぇ！",
+      "その牌、オレが待ってたやつ！"
+    ],
+    "riichi": [
+      "リーチ！ もう押す！",
+      "立直だ！ ここでビビるかよ！",
+      "待ちは決めた。来い！",
+      "リーチ！ オレの勘を信じる！"
+    ],
+    "chi": [
+      "チー！ そこ拾う！",
+      "それ使う。チー！",
+      "チーだ、進めるぞ！"
+    ],
+    "pon": [
+      "ポン！ 揃った！",
+      "それ寄こせ、ポン！",
+      "ポンだ！ 形できた！"
+    ],
+    "kan": [
+      "カン！ 派手に行くぞ！",
+      "カンだオラァ！",
+      "よし、場をぶっ壊す！"
+    ],
+    "result": [
+      "勝ち！ 見たか妹！",
+      "よっしゃあ！ 気持ちいい勝ち方した！",
+      "オレの勝ちだ！ 文句あっか！",
+      "ほらな、直感って強ぇだろ！"
+    ],
+    "draw": [
+      "流局かよ！ くそ、あとちょいだった！",
+      "山なくなるの早ぇって！",
+      "決まんねぇのムズムズすんな！",
+      "流れたか。手は悪くなかったんだけどな！"
+    ],
+    "final": [
+      "終わったな！ オレ、けっこう暴れたろ？",
+      "最終結果出たか。よし、ちゃんと見るぞ。",
+      "妹、今の対局覚えとけよ！",
+      "勝っても負けても、打ち切ったなら上等だ！"
+    ]
+  },
+  "renya": {
+    "start": [
+      "……まぁ、落ち着いてや。風は荒れてへん。",
+      "始めよか。ボクはゆっくり見させてもらうわ。",
+      "南帆ちゃん、焦らんでええよ。",
+      "風向きは悪ない。ほな、いこか。"
+    ],
+    "tsumo": [
+      "自摸やね。風が運んでくれたわ。",
+      "来たなぁ。ええ風や。",
+      "ツモ。静かに決まったね。",
+      "この牌、よう来てくれた。"
+    ],
+    "ron": [
+      "ロンや。その牌、ボクの待ちやった。",
+      "それは通らへんよ。",
+      "ロン。風に乗せて貰うわ。",
+      "置いた音で分かったわ。"
+    ],
+    "riichi": [
+      "立直。ここで待たせてもらうわ。",
+      "リーチやね。風が止まる場所はここ。",
+      "待ちは見えた。あとは静かに。",
+      "立直。無理には追わへん。"
+    ],
+    "chi": [
+      "チー。少しだけ道を借りるわ。",
+      "それ、繋がるから貰うね。",
+      "チーや。風の通り道やね。"
+    ],
+    "pon": [
+      "ポン。ここは揃えとく。",
+      "それはボクが受けるわ。",
+      "ポンや。音が揃ったね。"
+    ],
+    "kan": [
+      "カン。風向きが変わるなぁ。",
+      "槓するわ。少し場が鳴るで。",
+      "カン。静かな雷みたいやね。"
+    ],
+    "result": [
+      "勝ったで。風が味方してくれたんやろな。",
+      "終わりやね。静かな勝ちも悪くない。",
+      "ボクの勝ち。焦らんかったからやね。",
+      "南帆ちゃん、今の風、見えた？"
+    ],
+    "draw": [
+      "流局やね。風が決めきらんかった。",
+      "山が尽きたな。まぁ、こういう夜もある。",
+      "決まらへんかったね。手はまだ息してた。",
+      "流れたか。風だけが残ったな。"
+    ],
+    "final": [
+      "終わったねぇ。風の記録としては、なかなかや。",
+      "最終結果か。静かな卓やったな。",
+      "南帆ちゃん、最後までよう見てたね。",
+      "勝ち負けより、残った風が答えやと思うよ。"
+    ]
+  },
+  "itsuki": {
+    "start": [
+      "では、始めましょう。場の理はすでに整っています。",
+      "おや、よい配牌ですね。観測を始めます。",
+      "焦らず参りましょう。結論は牌が示します。",
+      "この卓にも法則はあります。見落とさないことです。"
+    ],
+    "tsumo": [
+      "自摸です。理に適った到着ですね。",
+      "来ましたね。無駄のない巡りです。",
+      "自摸。結論としては自然です。",
+      "この牌がここへ来るのは、少々美しいですね。"
+    ],
+    "ron": [
+      "ロンです。その一打は定義済みでした。",
+      "それは通りません。私の待ちです。",
+      "ロン。境界を越えましたね。",
+      "その牌で閉じましょう。"
+    ],
+    "riichi": [
+      "立直です。以後、この待ちを固定します。",
+      "ここで立直といたしましょう。",
+      "待ちは定まりました。あとは観測のみです。",
+      "立直。手順として問題ありません。"
+    ],
+    "chi": [
+      "チーです。必要な接続ですので。",
+      "それはいただきます。形が整います。",
+      "チー。道筋を補正しましょう。"
+    ],
+    "pon": [
+      "ポンです。対子の定義を利用します。",
+      "それは私の形に入ります。",
+      "ポン。場の構造が少し変わりますね。"
+    ],
+    "kan": [
+      "カンです。反動は抑えます。",
+      "槓いたします。場の定義を更新しましょう。",
+      "カン。少々騒がしくなりますね。"
+    ],
+    "result": [
+      "私の勝ちです。理に適っていましたね。",
+      "終局です。妥当な結果でしょう。",
+      "結論は出ました。美しい手順でした。",
+      "おや、勝ってしまいましたか。予定調和ですね。"
+    ],
+    "draw": [
+      "流局です。観測結果は保留ですね。",
+      "山が尽きましたか。結論は未確定です。",
+      "未確定のまま閉じました。珍しくはありません。",
+      "流れましたね。これもまた理です。"
+    ],
+    "final": [
+      "対局終了です。総合結果をご確認ください。",
+      "最終結果です。手順の差がそのまま残りましたね。",
+      "終わりました。なかなか興味深い卓でした。",
+      "結論は保存しました。南帆、よく見ていましたね。"
+    ]
+  },
+  "miko": {
+    "start": [
+      "ふふ、穏やかに始めようか。",
+      "波を乱しすぎずに行こうね。",
+      "焦らないで。静かな手にも勝ち筋はあるよ。",
+      "この卓、少し潮が満ちているみたい。"
+    ],
+    "tsumo": [
+      "ツモだね。波が寄せてくれたよ。",
+      "来た。優しい一枚だね。",
+      "自摸。静かに決まったね。",
+      "ふふ、この牌は逃げなかった。"
+    ],
+    "ron": [
+      "ロン。それは私の待ちだよ。",
+      "その牌、受け取るね。",
+      "ロン。波打ち際で捕まえたみたい。",
+      "ごめんね、そこは通せない。"
+    ],
+    "riichi": [
+      "立直。ここで静かに待つね。",
+      "リーチ。波が戻る場所はここ。",
+      "待ちは整ったよ。",
+      "ここで立直。無理に荒らさない。"
+    ],
+    "chi": [
+      "チー。少し流れを借りるよ。",
+      "それ、繋げておくね。",
+      "チー。水路ができた。"
+    ],
+    "pon": [
+      "ポン。揃えて守るよ。",
+      "それは私が受けるね。",
+      "ポン。波紋が広がった。"
+    ],
+    "kan": [
+      "カン。少し水面が揺れるね。",
+      "槓するよ。深く沈めてみる。",
+      "カン。潮目が変わるかな。"
+    ],
+    "result": [
+      "勝てたね。守っているだけでも届くことはあるよ。",
+      "ふふ、優しい勝ち方だった。",
+      "この局は私の勝ち。波が味方してくれたね。",
+      "荒らさず終われた。いい和了だったよ。"
+    ],
+    "draw": [
+      "流局だね。波が引いてしまったみたい。",
+      "決まらなかったかぁ。水面だけ残ったね。",
+      "山が尽きたね。深呼吸しようか。",
+      "流れたけど、悪い局じゃなかったよ。"
+    ],
+    "final": [
+      "対局、終わったね。波は静かに戻ったよ。",
+      "最終結果だね。よく最後まで打てたね。",
+      "勝敗は出たけれど、卓は荒れなかった。",
+      "ふふ、お疲れさま。水面に残るものもあるよ。"
+    ]
+  },
+  "shion": {
+    "start": [
+      "よろしくてよ。巡りは私が選びますわ。",
+      "始めましょう。時はもう動いています。",
+      "焦る必要はありません。秒針はこちら側ですもの。",
+      "この局、どの未来が残るか見ものですわね。"
+    ],
+    "tsumo": [
+      "自摸ですわ。時は私に微笑みました。",
+      "来ましたわね。予定より少し早いくらい。",
+      "ツモ。美しい巡りでしょう？",
+      "この一枚、私の時刻に届きましたわ。"
+    ],
+    "ron": [
+      "ロンですわ。その未来は切りました。",
+      "それは私の待ち牌。残念でしたわね。",
+      "ロン。秒針の音、聞こえまして？",
+      "その一打で終わりですわ。"
+    ],
+    "riichi": [
+      "立直ですわ。時刻を固定します。",
+      "リーチ。ここからは逃げられませんわよ。",
+      "待ちは決まりました。秒針を見ていなさい。",
+      "立直。未来を一本に絞ります。"
+    ],
+    "chi": [
+      "チーですわ。巡りを繋ぎます。",
+      "それ、頂戴しますわ。",
+      "チー。時の糸を結びます。"
+    ],
+    "pon": [
+      "ポンですわ。重なりは美しいもの。",
+      "それは私の周期です。",
+      "ポン。秒針が揃いましたわ。"
+    ],
+    "kan": [
+      "カンですわ。時を少し跳ねさせましょう。",
+      "槓します。場が揺れるのも一興。",
+      "カン。秒針が鳴りましたわ。"
+    ],
+    "result": [
+      "勝利ですわ。美しい巡りでしたでしょう？",
+      "この局の未来は、私の手の中でした。",
+      "終わりですわ。時は私を選びました。",
+      "ふふ、秒針まで味方でしたわね。"
+    ],
+    "draw": [
+      "流局ですわ。時が結末を保留しました。",
+      "決まらない未来も、時には美しいもの。",
+      "山が尽きましたわ。秒針だけが残りました。",
+      "流れましたわね。巻き戻すまでもありません。"
+    ],
+    "final": [
+      "対局終了ですわ。最後の時刻まで美しかったでしょう？",
+      "最終結果です。時は嘘をつきませんわ。",
+      "ここで幕ですわ。巡りは記録されました。",
+      "ふふ、良い暇つぶしにはなりましたわね。"
+    ]
+  },
+  "maximilien": {
+    "start": [
+      "始めよう。牌とは、血統ほどではないが秩序を持つ。",
+      "無作法な卓でなければよいが。",
+      "観察を始める。感情で牌を汚すな。",
+      "配置は整った。では、選別しよう。"
+    ],
+    "tsumo": [
+      "自摸だ。来るべきものが来たに過ぎん。",
+      "この一枚は、我が手に置かれるべきだった。",
+      "ツモ。血脈のように、牌も辿り着く。",
+      "当然の帰結だ。"
+    ],
+    "ron": [
+      "ロンだ。その牌は無価値に切るものではない。",
+      "君の一打は、粗雑だな。",
+      "それは私の待ちだ。無粋な終わりではあるが。",
+      "ロン。選別は終わった。"
+    ],
+    "riichi": [
+      "立直。以後、無駄な揺らぎは不要だ。",
+      "ここで待つ。美しい結末ならば来るであろう。",
+      "立直だ。牌の系譜を閉じる。",
+      "待ちは定まった。感情は不要だ。"
+    ],
+    "chi": [
+      "チーだ。必要な構成物は回収する。",
+      "その牌には保存価値がある。",
+      "チー。欠落を補う。"
+    ],
+    "pon": [
+      "ポンだ。同種の牌は揃えてこそ意味を持つ。",
+      "それは私の卓に収める。",
+      "ポン。分類が進んだ。"
+    ],
+    "kan": [
+      "カン。場の価値を再鑑定する。",
+      "槓だ。少しは見栄えがする。",
+      "カン。無秩序を恐れるほど幼くはない。"
+    ],
+    "result": [
+      "勝者は私だ。……その妙な愛称で呼ぶな。",
+      "当然の結果だ。驚くほどのことではない。",
+      "この勝利は保存に値する。",
+      "君たちの敗北にも、わずかな価値はあった。"
+    ],
+    "draw": [
+      "流局か。結末としては無粋だ。",
+      "決着なしか。保存する価値は低い。",
+      "山が尽きるとは、資源管理が甘い。",
+      "閉じぬ卓ほど退屈なものはない。"
+    ],
+    "final": [
+      "最終結果か。記録には残しておこう。",
+      "終わりだ。価値の序列は明らかになった。",
+      "この卓もまた、ひとつの標本ではある。",
+      "マックスではない。マクシミリアンだ。結果と共に覚えたまえ。"
+    ]
+  },
+  "lucien": {
+    "start": [
+      "あはっ、始まるんだ。ねえ、甘い牌あるかなぁ。",
+      "侯爵様に見せられるくらい、楽しくしようね。",
+      "いいよ。逃げても牌の匂いでわかるから。",
+      "遊ぼうよ。すぐ終わったらつまんないもん。"
+    ],
+    "tsumo": [
+      "ツモ！ あはは、来ちゃった。",
+      "甘いの引いた。これ、ボクの。",
+      "自摸だよ。ね、いい音した？",
+      "来た来た。侯爵様、見てるかなぁ。"
+    ],
+    "ron": [
+      "ロン。君、その牌くれるの？",
+      "それ当たり。あは、優しいねぇ。",
+      "ロンだよ。逃げられなかったね。",
+      "その牌、すっごく甘かった。"
+    ],
+    "riichi": [
+      "リーチ。待ってる時間も好きだよ。",
+      "立直だよ。ねえ、どの牌くれる？",
+      "ここで待つね。震えてくれる？",
+      "リーチ。音が近づいてくるの、楽しい。"
+    ],
+    "chi": [
+      "チー。ちょっと舐めるだけ。",
+      "それ欲しいな。ちょうだい。",
+      "チー。逃げ道、細くなったね。"
+    ],
+    "pon": [
+      "ポン。揃った揃った。",
+      "それ、ボクのにする。",
+      "ポン。もっと甘くなるかな。"
+    ],
+    "kan": [
+      "カン！ 大きい音、好き！",
+      "槓だよ。びっくりした？",
+      "カン。あはは、卓が跳ねた。"
+    ],
+    "result": [
+      "勝っちゃった。ねえ、見てた？",
+      "ボクの勝ち！ 侯爵様、褒めてくれるかなぁ。",
+      "あはは、楽しかった。",
+      "勝った勝った。牌もけっこう甘いね。"
+    ],
+    "draw": [
+      "えー、終わり？ つまんなーい。",
+      "流れちゃった。まだ遊びたかったのに。",
+      "山がないなら、音もないね。",
+      "決まらないの、焦らされてるみたい。"
+    ],
+    "final": [
+      "終わっちゃった。もっと遊びたかったなぁ。",
+      "最終結果？ ボクの名前、ちゃんとある？",
+      "侯爵様に報告しなきゃ。楽しかったって。",
+      "あはは、終わりの音も悪くないね。"
+    ]
+  },
+  "kaya": {
+    "start": [
+      "あら、始まるのね。退屈させないで。",
+      "いいわ。どんな風に壊れるか見せて。",
+      "南帆ちゃん、その迷い方……もう綺麗。",
+      "雷は落ちる場所を選ぶのよ。"
+    ],
+    "tsumo": [
+      "ツモ。ほら、痺れたでしょう？",
+      "来たわ。雷は嘘をつかないもの。",
+      "自摸。綺麗に落ちたわね。",
+      "この一枚、いい電圧してる。"
+    ],
+    "ron": [
+      "ロン。その牌、焼け跡みたいに残るわよ。",
+      "それ当たり。泣きそうな音ね。",
+      "ロン。あんた、そこに落としたのね。",
+      "その一打、綺麗に痺れたわ。"
+    ],
+    "riichi": [
+      "立直。ここから電圧を上げるわ。",
+      "リーチ。逃げ道を光らせてあげる。",
+      "待ちは決まったわ。震えてて。",
+      "立直。雷鳴を聞きなさい。"
+    ],
+    "chi": [
+      "チー。火花を繋ぐわ。",
+      "それ、導線にする。",
+      "チー。綺麗に流れたわね。"
+    ],
+    "pon": [
+      "ポン。揃うとよく響くの。",
+      "それ、あたしに寄越しなさい。",
+      "ポン。電流が通ったわ。"
+    ],
+    "kan": [
+      "カン。雷が落ちるわよ。",
+      "槓。派手な音、嫌いじゃないでしょ？",
+      "カン。卓ごと痺れさせる。"
+    ],
+    "result": [
+      "勝ったわ。雷は嘘をつかないもの。",
+      "ふふ、綺麗に落ちたわね。",
+      "南帆ちゃん、今の痺れた？",
+      "この局、あたしの電圧が勝っただけ。"
+    ],
+    "draw": [
+      "流局ね。雷雲が散ってしまったわ。",
+      "決まらないのも焦れるわね。",
+      "山が尽きたの。なら焼け跡だけ見ていなさい。",
+      "流れたわ。光り方は悪くなかった。"
+    ],
+    "final": [
+      "終わりね。壊れきらない卓も、たまには綺麗。",
+      "最終結果よ。誰が一番痺れたか、見ればわかるわ。",
+      "雷鳴は止んだわ。余韻だけ残しておく。",
+      "南帆ちゃん、最後までいい顔してたわよ。"
+    ]
+  },
+  "takuma": {
+    "start": [
+      "始めようか。焦る顔は、まだ早い。",
+      "いいよ。まずは君の癖を見せて。",
+      "卓ってさ、黙ってても性格が出るよね。",
+      "ゆっくり崩そうか。無理はしないよ。"
+    ],
+    "tsumo": [
+      "ツモ。ほら、来る時は来る。",
+      "引けた。悪くないね。",
+      "自摸。こういう静かな勝ち、好きだよ。",
+      "この一枚で十分かな。"
+    ],
+    "ron": [
+      "ロン。今の、少し焦った？",
+      "それ当たり。顔に出てたよ。",
+      "ロン。切る前から迷ってたよね。",
+      "その牌、置かせたかったんだ。"
+    ],
+    "riichi": [
+      "立直。待つのは得意なんだ。",
+      "リーチ。君がどう迷うか見てる。",
+      "ここで待つよ。逃げなくていい。",
+      "立直。じっくり行こうか。"
+    ],
+    "chi": [
+      "チー。少し寄せるね。",
+      "それ使うよ。",
+      "チー。形が見やすくなった。"
+    ],
+    "pon": [
+      "ポン。揃うと安心するだろ。",
+      "それ、もらうね。",
+      "ポン。癖が出たね。"
+    ],
+    "kan": [
+      "カン。場が揺れるの、嫌いじゃない。",
+      "槓するよ。反応が見たい。",
+      "カン。さて、どうなるかな。"
+    ],
+    "result": [
+      "俺の勝ち。……悔しい？",
+      "勝ち。今の顔、悪くなかった。",
+      "勝たせてもらったよ。",
+      "この勝ち、煙草より後味いいかも。"
+    ],
+    "draw": [
+      "流局か。焦らされたね。",
+      "決まらないのも、それはそれで悪くない。",
+      "山が尽きた。手の内は少し見えたよ。",
+      "流れたか。沈黙が残ったね。"
+    ],
+    "final": [
+      "終わったね。最終結果って、逃げ場がないよね。",
+      "数字で残るの、残酷だけど便利だ。",
+      "最後まで見たよ。君の打ち方、ちゃんと。",
+      "対局終了。後味まで含めて、悪くない。"
+    ]
+  },
+  "shinobu": {
+    "start": [
+      "では、記録を始めましょう。",
+      "お嬢さん、その一打まで残さず記します。",
+      "静かに参りましょう。震えは後ほど読み返せます。",
+      "卓上の呼吸、実に興味深いですねぇ。"
+    ],
+    "tsumo": [
+      "自摸です。よい記録になりました。",
+      "来ましたねぇ。この瞬間を保存しましょう。",
+      "ツモ。鼓動が少し跳ねました。",
+      "この一枚、頁に挟んでおきたいですね。"
+    ],
+    "ron": [
+      "ロンです。その迷い、記録済みです。",
+      "それは私の待ちでした。美しい失着です。",
+      "ロン。置く指先まで、よく見えました。",
+      "その一打、実に残し甲斐があります。"
+    ],
+    "riichi": [
+      "立直です。ここから観察が濃くなります。",
+      "リーチ。待つ時間も記録には必要です。",
+      "待ちは定まりました。どうぞ震えずに。",
+      "立直。頁を閉じる準備をしましょう。"
+    ],
+    "chi": [
+      "チーです。流れを採取します。",
+      "それは記録に必要な牌です。",
+      "チー。細い線も残しておきます。"
+    ],
+    "pon": [
+      "ポンです。音が揃いましたねぇ。",
+      "その牌、いただきます。",
+      "ポン。反応が少し変わりました。"
+    ],
+    "kan": [
+      "カンです。大きな音も記録しましょう。",
+      "槓。場の震えが増しました。",
+      "カン。よい刺激です。"
+    ],
+    "result": [
+      "私の勝ちです。貴女の反応も、きちんと残しました。",
+      "終局。何度でも読み返したいですね。",
+      "この勝ちは美しい標本になりました。",
+      "勝利記録、保存完了です。"
+    ],
+    "draw": [
+      "流局です。未完の記録もまた美しい。",
+      "決着がつかない焦燥、よいですねぇ。",
+      "山が尽きました。沈黙まで保存します。",
+      "流れましたか。惜しい震えでした。"
+    ],
+    "final": [
+      "最終記録、完了です。美しい対局でした。",
+      "終わりましたねぇ。頁を閉じるには惜しいほどです。",
+      "結果も反応も、すべて保存しました。",
+      "お嬢さん、この卓の余韻まで記録しておきます。"
+    ]
+  },
+  "kouga": {
+    "start": [
+      "さあ、始めようか。アンタの顔、よく見せて。",
+      "退屈な卓にはしないよ。俺も遊びたいからね。",
+      "牌も人も、落とし方が大事なんだ。",
+      "いいね。その構え、少しそそる。"
+    ],
+    "tsumo": [
+      "ツモ。ほら、俺のところへ来た。",
+      "来たね。いい子だ。",
+      "自摸。こういう誘い方もある。",
+      "この一枚、俺を選んだみたいだね。"
+    ],
+    "ron": [
+      "ロン。アンタ、その牌を渡したかったんだろ？",
+      "それ当たり。油断した顔もいいね。",
+      "ロン。逃げるには少し遅い。",
+      "その一打、俺には甘すぎた。"
+    ],
+    "riichi": [
+      "立直。ここからは俺を意識して。",
+      "リーチ。目、逸らさないでよ。",
+      "待ちは決まった。誘いに乗るかい？",
+      "立直。焦れる時間も悪くない。"
+    ],
+    "chi": [
+      "チー。少し絡め取るよ。",
+      "それ、俺に預けて。",
+      "チー。綺麗に繋がった。"
+    ],
+    "pon": [
+      "ポン。揃う音、好きなんだ。",
+      "それ欲しいな。",
+      "ポン。逃げ道が減ったね。"
+    ],
+    "kan": [
+      "カン。派手な方が映えるだろ？",
+      "槓するよ。卓が少し熱くなる。",
+      "カン。アンタの反応が見たい。"
+    ],
+    "result": [
+      "勝ったよ。悔しいなら、もっと俺を見て。",
+      "俺の勝ち。アンタ、いい顔するね。",
+      "この局は俺の色。覚えておきなよ。",
+      "ふふ、落とすつもりが勝っちゃった。"
+    ],
+    "draw": [
+      "流局か。焦らされるのも悪くない。",
+      "決まらないの、案外そそるな。",
+      "山が尽きたか。熱だけ残ったね。",
+      "流れたね。もう少し見たかったな。"
+    ],
+    "final": [
+      "終わったね。アンタの表情、最後まで楽しめたよ。",
+      "最終結果か。美しい勝敗は嫌いじゃない。",
+      "対局終了。俺の余韻、残ってる？",
+      "いい卓だったよ。心の隙までよく見えた。"
+    ]
+  }
+};
+
 function eventQuote(player, event) {
   const id = player?.id || 'default';
-  const pool = [];
-  const baseLine = EVENT_LINES[id]?.[event] || EVENT_LINES.default[event] || player?.quote || '';
-  if (baseLine) pool.push(baseLine);
-  (EVENT_VARIATIONS.default?.[event] || []).forEach(line => pool.push(line));
-  (EVENT_VARIATIONS[id]?.[event] || []).forEach(line => pool.push(line));
-  const unique = [...new Set(pool.filter(Boolean))];
-  if (!unique.length) return player?.quote || '';
-  const key = `${id}:${event}`;
-  EVENT_ROTATION[key] = ((EVENT_ROTATION[key] ?? -1) + 1) % unique.length;
-  return unique[EVENT_ROTATION[key]];
+  const directPool = CHARACTER_EVENT_LINES[id]?.[event] || [];
+  const fallbackPool = CHARACTER_EVENT_LINES.default?.[event] || [];
+  const pool = directPool.length ? directPool : fallbackPool;
+  if (pool.length) {
+    const key = `v40:${id}:${event}`;
+    EVENT_ROTATION[key] = ((EVENT_ROTATION[key] ?? -1) + 1) % pool.length;
+    return pool[EVENT_ROTATION[key]];
+  }
+  return EVENT_LINES[id]?.[event] || EVENT_LINES.default[event] || player?.quote || '';
 }
 
 function cutinPortraitHtml(player, className = 'cutin-portrait') {

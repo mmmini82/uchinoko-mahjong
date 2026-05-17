@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hyoen-mahjong-v36-image-tiles';
+const CACHE_NAME = 'hyoen-mahjong-v40-strong-ai';
 const ASSETS = [
   './',
   './index.html',
@@ -12,6 +12,7 @@ const ASSETS = [
   './assets/icon-192.png',
   './assets/ui/background_pc.png',
   './assets/ui/background_mobile.png',
+  './assets/ui/riichi_stick.gif',
   './assets/tiles/dragon_chun.gif',
   './assets/tiles/dragon_haku.gif',
   './assets/tiles/dragon_hatsu.gif',

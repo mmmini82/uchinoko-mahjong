@@ -1,0 +1,6 @@
+v38 update:
+- Power 4/5 CPU characters now avoid cheap early wins and prefer higher-han/showy hands.
+- Strong CPUs value flushes, toitoi, chiitoitsu, kokushi-like shapes, yakuhai stacking, and dora retention more strongly.
+- Strong CPUs are less likely to make weak chi/pon calls unless the call supports a high-value plan.
+- Strong CPUs get a slightly stronger draw-choice bias so boss-like characters feel more threatening.
+- Cache updated to hyoen-mahjong-v38-strong-ai.
