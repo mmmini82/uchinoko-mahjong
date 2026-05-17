@@ -1,0 +1,14 @@
+TOP画面は「一枚絵を全面表示」方式です。
+
+優先して読むファイル名:
+PC/横長: assets/ui/top_pc.png または assets/ui/top_pc.jpg
+スマホ/縦長: assets/ui/top_mobile.png または assets/ui/top_mobile.jpg
+
+fallbackとして以下も読みます:
+assets/ui/top_background_pc.png / .jpg
+assets/ui/top_background_mobile.png / .jpg
+assets/ui/background_pc.png / .jpg
+assets/ui/background_mobile.png / .jpg
+
+画像内にロゴ・キャラ・背景を全部入れてOK。
+アプリ側では TAP TO START ボタンだけを上に重ねます。

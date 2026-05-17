@@ -1,0 +1,15 @@
+{
+  "name": "氷焔雀譚 - Character Mahjong",
+  "short_name": "氷焔雀譚",
+  "description": "うちの子たちと遊ぶキャラ麻雀PWAプロトタイプ",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#130d1e",
+  "theme_color": "#1d132b",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "assets/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "assets/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

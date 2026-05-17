@@ -1,0 +1,18 @@
+背景画像・トップ画像スロット
+
+配置先: assets/ui/
+
+TOPページを一枚絵として使う場合はこちら推奨:
+- top_pc.jpg  … PC/横長TOP画像。1920×1080や16:9推奨。ロゴ・キャラ込みでOK。
+- top_mobile.jpg … スマホ/縦長TOP画像。1080×1920や9:16推奨。ロゴ・キャラ込みでOK。
+
+対局画面など全体背景:
+- background_pc.jpg  … PC/横長背景
+- background_mobile.jpg … スマホ/縦長背景
+
+旧式の分離素材スロット（今はTOPでは非表示）:
+- top_logo.png … TOPページ用ロゴ(透過)
+- top_character.png … TOPページ用キャラ画像(透過)
+
+HUD用アイコンは 1:1 の正方形推奨。
+立ち絵とTOP一枚絵は 1:1 じゃなくてOKです。

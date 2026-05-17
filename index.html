@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1d132b" />
+  <meta name="description" content="うちの子たちと遊ぶキャラ麻雀PWAプロトタイプ" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/icon-192.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <title>氷焔雀譚 - Character Mahjong PWA</title>
+</head>
+<body>
+  <div id="app" class="app">
+    <header class="topbar">
+      <div class="topbar-brand">
+        <img class="header-logo" src="assets/ui/top_logo.png" alt="氷焔雀譚" onerror="this.style.display='none'; this.parentElement.classList.add('logo-missing')">
+        <div class="brand-copy">
+          <p class="eyebrow">PWA Prototype</p>
+          <h1>氷焔雀譚</h1>
+        </div>
+      </div>
+      <button id="installBtn" class="ghost hidden">アプリ追加</button>
+    </header>
+
+
+    <main id="topScreen" class="screen top-screen">
+      <section class="top-hero panel">
+        <div class="top-bg-art">
+          <img class="top-logo" src="assets/ui/top_logo.png" alt="氷焔雀譚ロゴ" onerror="this.style.display='none'">
+          <img class="top-character" src="assets/ui/top_character.png" alt="トップキャラ" onerror="this.style.display='none'">
+          <div class="top-placeholder top-logo-placeholder">LOGO SLOT</div>
+          <div class="top-placeholder top-char-placeholder">CHARACTER SLOT</div>
+        </div>
+        <div class="top-start-wrap">
+          <button id="topStartBtn" type="button" class="primary top-start-btn">TAP TO START</button>
+        </div>
+      </section>
+    </main>
+
+    <main id="menuScreen" class="screen menu-screen hidden">
+      <section class="hero-card menu-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">うちの子 × 四人麻雀</p>
+          <h2>まずは自キャラ、次に対戦相手。</h2>
+          <p>選択画面をこいこい風に分離。アイコンから選ぶと大きな立ち絵と説明が出て、決定して次へ進むよ。ポン・チー・カン、初心者ナビ、役一覧つき。</p>
+        </div>
+        <div class="hero-tile">🀄</div>
+      </section>
+
+      <section id="playerSelectStep" class="select-step">
+        <div class="select-banner">
+          <div>
+            <p class="eyebrow">SELECT PLAYER</p>
+            <h2>操作キャラ選択</h2>
+          </div>
+          <div class="breadcrumb">TOP ＞ キャラ選択</div>
+        </div>
+        <div class="select-layout player-layout">
+          <aside class="panel roster-panel">
+            <div class="panel-head">
+              <span>PLAYER</span>
+              <strong>操作キャラ</strong>
+            </div>
+            <div id="playerIconList" class="select-icon-grid"></div>
+          </aside>
+          <article id="playerPreview" class="panel select-preview"></article>
+        </div>
+      </section>
+
+      <section id="opponentSelectStep" class="select-step hidden">
+        <div class="select-banner">
+          <div>
+            <p class="eyebrow">SELECT RIVALS</p>
+            <h2>対戦相手選択</h2>
+          </div>
+          <div class="breadcrumb">TOP ＞ キャラ選択 ＞ 対戦</div>
+        </div>
+        <div class="select-layout opponent-layout">
+          <article id="opponentPreview" class="panel select-preview"></article>
+          <aside class="panel roster-panel opponent-roster-panel">
+            <div class="panel-head split-head">
+              <div><span>RIVALS</span><strong>対戦相手 3人</strong></div>
+              <small id="opponentCountLabel">0 / 3</small>
+            </div>
+            <div id="opponentSlots" class="opponent-slots"></div>
+            <div id="opponentIconList" class="select-icon-grid opponent-icons"></div>
+            <div class="match-settings">
+              <span class="eyebrow">対戦局数</span>
+              <div id="matchLengthButtons" class="match-length-buttons"></div>
+            </div>
+            <div class="setup-actions select-actions-row">
+              <button id="randomOpponentsBtn" class="ghost">ランダム選出</button>
+              <button id="recommendedBtn" class="ghost">強卓おすすめ</button>
+              <button id="backToPlayerBtn" class="ghost">自キャラに戻る</button>
+              <button id="startBtn" class="primary">この3人で対局開始</button>
+              <button id="menuYakuListBtn" class="ghost">役一覧を見る</button>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <main id="gameScreen" class="screen game-screen hidden">
+      <section class="table-wrap">
+        <div id="playerNorth" class="seat seat-north"></div>
+        <div id="playerWest" class="seat seat-west"></div>
+        <div id="playerEast" class="seat seat-east"></div>
+
+        <div class="mahjong-table">
+          <div class="table-glow"></div>
+          <div class="round-info">
+            <span id="roundLabel">東1局</span>
+            <strong id="turnLabel">南帆の手番</strong>
+            <small id="wallLabel">山: 0</small>
+          </div>
+          <div class="dora-box">
+            <span>DORA</span>
+            <b id="doraTile" class="mini-tile">🀫</b>
+          </div>
+          <div id="centerMessage" class="center-message">配牌中……</div>
+          <div class="river-layout">
+            <div id="river2" class="river river-top"></div>
+            <div id="river1" class="river river-left"></div>
+            <div id="river3" class="river river-right"></div>
+            <div id="river0" class="river river-bottom"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hand-panel">
+        <div id="playerSouth" class="seat seat-south"></div>
+        <div id="meldArea" class="meld-area"></div>
+        <div id="hand" class="hand"></div>
+        <div class="action-row">
+          <button id="tsumoBtn" class="primary small" disabled>ツモ</button>
+          <button id="ronBtn" class="primary small hidden">ロン</button>
+          <button id="riichiBtn" class="accent small" disabled>立直</button>
+          <button id="chiBtn" class="accent small hidden">チー</button>
+          <button id="ponBtn" class="accent small hidden">ポン</button>
+          <button id="kanBtn" class="accent small hidden">カン</button>
+          <button id="skipBtn" class="ghost small hidden">見送る</button>
+          <button id="sortBtn" class="ghost small">理牌</button>
+          <button id="yakuListBtn" class="ghost small">役一覧</button>
+          <button id="newRoundBtn" class="ghost small">最初から</button>
+          <button id="backToOpponentsFromGameBtn" class="ghost small">相手選択へ</button>
+          <button id="backToPlayerFromGameBtn" class="ghost small">キャラ選択へ</button>
+        </div>
+      </section>
+
+      <div id="callPrompt" class="call-prompt hidden" aria-live="polite">
+        <div class="call-prompt-text">
+          <span class="eyebrow">CALL CHANCE</span>
+          <strong id="callPromptTitle">鳴けるよ</strong>
+        </div>
+        <div class="call-prompt-actions">
+          <button id="callChiBtn" class="accent small hidden">チー</button>
+          <button id="callPonBtn" class="accent small hidden">ポン</button>
+          <button id="callKanBtn" class="accent small hidden">カン</button>
+          <button id="callSkipBtn" class="ghost small">見送る</button>
+        </div>
+      </div>
+
+      <section class="guide-panel">
+        <div class="panel-head">
+          <span>GUIDE</span>
+          <strong>初心者ナビ</strong>
+        </div>
+        <div id="guideBody" class="guide-body">手番になると、おすすめの捨て牌と狙えそうな役を表示するよ。</div>
+      </section>
+
+      <aside class="log-panel">
+        <div class="panel-head">
+          <span>LOG</span>
+          <strong>牌譜</strong>
+        </div>
+        <div id="log" class="log"></div>
+      </aside>
+    </main>
+
+
+    <div id="meldPeek" class="meld-peek hidden" aria-live="polite"></div>
+
+    <div id="yakuModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="yakuModalTitle">
+      <div class="modal-card yaku-card">
+        <div class="modal-head">
+          <div>
+            <p class="eyebrow">BEGINNER GUIDE</p>
+            <h2 id="yakuModalTitle">役一覧</h2>
+          </div>
+          <button id="closeYakuBtn" class="ghost small">閉じる</button>
+        </div>
+        <p class="yaku-lead">麻雀は「役」がないと和了できないよ。最初はこの5つだけ覚えればだいぶ遊べる：立直・断么九・役牌・七対子・門前清自摸和。</p>
+        <div class="yaku-tabs" id="yakuTabs"></div>
+        <div id="yakuList" class="yaku-list"></div>
+        <p class="guide-note">※このプロトタイプはポン・チー・カン対応。鳴くと立直できないので、役牌・断么九・混一色・対々和あたりを意識してね。点数はざっくり表示だよ。</p>
+      </div>
+    </div>
+
+    <div id="miniCutin" class="mini-cutin hidden" aria-live="polite"></div>
+    <div id="cutin" class="cutin hidden" aria-live="polite"></div>
+    <div id="resultOverlay" class="result-overlay hidden" aria-live="polite"></div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

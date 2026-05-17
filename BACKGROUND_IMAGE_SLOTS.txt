@@ -1,0 +1,12 @@
+背景画像スロット
+
+自キャラ選択・対戦相手選択・対局画面の「枠外背景」に使う画像：
+
+PC版：assets/ui/background_pc.png
+スマホ版：assets/ui/background_mobile.png
+
+jpgでも一応読みます：
+assets/ui/background_pc.jpg
+assets/ui/background_mobile.jpg
+
+TOP画面とは別です。TOPは top_pc.png / top_mobile.png を使います。

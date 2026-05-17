@@ -1,0 +1,23 @@
+# Character portrait filenames for 氷焔雀譚
+# Put generated transparent/white-background cutout PNGs here:
+#   minaho_mahjong_pwa/assets/characters/<filename>
+# The app already looks for these paths and falls back to emoji icons if a file is missing.
+
+南帆: assets/characters/minaho.png
+朱音: assets/characters/akane.png
+梁泫: assets/characters/leung_hin.png
+煜: assets/characters/yuk.png
+瑤: assets/characters/yao.png
+悠: assets/characters/haruka.png
+真澄: assets/characters/masumi.png
+碧衣: assets/characters/aoi.png
+煉夜: assets/characters/renya.png
+斎: assets/characters/itsuki.png
+海琴: assets/characters/mikoto.png
+紫苑: assets/characters/shion.png
+マクシミリアン: assets/characters/maximilien.png
+リュシアン: assets/characters/lucien.png
+伽耶: assets/characters/kaya.png
+拓真: assets/characters/takuma.png
+忍: assets/characters/shinobu.png
+煌雅: assets/characters/kouga.png
